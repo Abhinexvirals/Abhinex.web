@@ -1,0 +1,636 @@
+/* Abhinex Web Page*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+/* body Section*/
+body{
+
+  background-image: url('https://img.freepik.com/free-vector/black-background-with-focus-spot-light_1017-27230.jpg?semt=ais_hybrid&w=740');
+  background-size: cover;      
+  background-repeat: no-repeat;   
+  background-attachment: fixed;   
+  background-position: center;    
+}
+
+/* Navbar Section */
+#navbar{
+    height:60px;
+    width: 500px;
+    border-radius: 95px;
+    background-color: rgba(0, 0, 0, 0.718);
+    margin-left: 520px;
+    margin-top: 20px;
+    position: fixed;
+}
+
+#navbar a{
+    display: inline-block;
+    padding-right: 7px;
+    margin-left: 55px;
+    margin-top: 16px;
+    text-transform: capitalize;
+    text-decoration: none;
+    color:rgba(213, 213, 213, 0.761);
+    transition-property: all;
+    transition-duration: 300ms;
+    transition-delay: 150ms;
+}
+
+#navbar a:hover{
+    color:rgb(255, 255, 255);
+}
+
+/* corner Abhinex Logo */
+#logo img{
+    height: 65px;
+    width: 65px;
+    border-radius: 50px;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+#logo h3{
+    color:white;
+    margin-left: 55px;
+    margin-top:50px;
+    display: inline-block;
+    position: relative;
+    right:55px;
+    bottom:25px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 
+    0 0 5px rgba(0, 0, 0, 0.6),
+    0 0 10px rgba(0, 0, 0, 0.4),
+    2px 2px 4px rgba(0, 0, 0, 0.6);
+}
+
+/* Main Abhinex Logo In Web Page */ 
+ .toplogo{
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+    border: 5px solid white;
+    margin-left: 717px;
+    margin-top: 25px;
+ }
+
+ .emojie{
+    position: absolute;
+    left:770px;
+    top:180px;
+    font-size: 34px;
+ }
+
+ /* Welcome Section */ 
+ .welcome{
+    color:rgb(255, 255, 255);
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+    text-transform: capitalize;
+    position: relative;
+    top:30px;
+    animation-name: welcome1;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-delay: 200ms;
+ }
+@keyframes welcome1 {
+  0% {
+    text-shadow: 0 0 5px #4064678e, 0 0 10px #0a8f986d;
+  }
+  50%{
+    color: #9620a633;
+    text-shadow: 0 0 15px #0094833e, 0 0 30px #bafff700;
+  }
+}
+
+/* Headline Section */
+.headline{
+  color:rgba(255, 255, 255, 0.874);
+  position: relative;
+  top:90px;
+  left:10px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-transform: capitalize;
+  font-size: 30px;
+  text-align: center;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+/* Contact Butoon Abhinex In Whatsapp */
+  .whatsapp-connect {
+  position: absolute;
+  top: 550px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #0e0e0e;
+  color: white;
+  text-transform: capitalize;
+  border: 1px solid rgba(255, 255, 255, 0.077);
+  padding: 14px 22px;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  text-decoration: none;
+  font-family: sans-serif;
+  font-size: 16px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.6);
+  transition: transform 0.2s ease, background-color 0.3s ease;
+  z-index: 1000;
+}
+
+.whatsapp-connect img {
+  width: 26px;
+  height: 26px;
+}
+
+.whatsapp-connect:hover {
+  background-color: #1a1a1a;
+  transform: translate(-50%, -50%) scale(1.05);
+}
+
+.whatsapp-connect:active{
+ background-color: #3d3a3a;
+}
+
+/* Horizontal Glowing Line */
+.glowing-line {
+  position: relative;
+  top:200px;
+  height: 4px;
+  width: 100%;
+  background: linear-gradient(90deg, #00000000, #8a72725e, #00000000);
+  background-size: 200% auto;
+  animation: scroll-glow 3s linear infinite;
+  margin: 30px 0;
+  box-shadow: 0 0 10px #99626263;
+  border-radius: 10px;
+}
+
+@keyframes scroll-glow {
+  0% {
+    background-position: 0% center;
+  }
+  100% {
+    background-position: 200% center;
+  }
+}
+
+/* Abhinex Eperties Section */
+ h1{
+  color:rgb(255, 255, 255);
+  position: relative;
+  top:200px;
+  font-size: 70px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: capitalize;
+  text-shadow: 0 0 5px rgba(255, 255, 255, 0.3),
+               0 0 10px rgba(255, 255, 255, 0.2),
+               0 0 15px rgba(255, 255, 255, 0.1);
+ }
+
+ .short{
+  color:rgba(218, 218, 218, 0.799);
+  position: absolute;
+  top:730px;
+  left:460px;
+  font-size: 20px;
+ }
+
+ /* Box Section 1 */ 
+ #box1{
+  height: 420px;
+  width: 1100px;
+  border:1px solid rgba(93, 93, 93, 0.49);
+  background-color:rgba(0, 0, 0, 0.546);
+  position: relative;
+  top:300px;
+  left:210px;
+  border-radius: 80px;
+}
+
+#box1 img{
+  height: 360px;
+  width: 430px;
+  border-radius: 90px;
+  border: 1px solid rgba(152, 152, 152, 0.47);
+  position:absolute;
+  left:30px;
+  top:30px;
+  transition-duration: 500ms;
+  transition-delay: 150ms;
+  transition-property: all;
+}
+
+#box1 img:hover {
+  transform: scale(1.06); /* thoda zoom karega (5% increase) */
+}
+
+#box1 h2{
+  color: white;
+  text-transform: capitalize;
+  font-size: 33px;
+  font-family: Arial, Helvetica, sans-serif;
+  position: absolute;
+  left:530px;
+  top:80px;
+}
+
+#box1 p{
+  color:rgba(220, 218, 218, 0.84);
+  text-transform: capitalize;
+  font-family: Arial, Helvetica, sans-serif;
+  position: absolute;
+  left:530px;
+  top:125px;
+}
+#box1 ul{
+  color:rgba(201, 200, 195, 0.428);
+  position:absolute;
+  left:550px;
+  top:170px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: capitalize;
+}
+
+#box1 li:hover{
+ background-color: rgba(168, 168, 168, 0.431);
+ border-radius: 90px;
+}
+
+#box1 li{
+  margin-bottom: 5px;
+}
+
+#box1 button{
+  background-color: #030303c4;
+  color: white;
+  padding: 12px 28px;
+  font-size: 16px;
+  border-radius: 90px;
+  border: 1px solid rgba(117, 117, 117, 0.438);
+  position: relative;
+  left:540px;
+  top:340px;
+  cursor: pointer;
+}
+
+#box1 button:hover {
+  border: 1px solid rgba(255, 255, 255, 0.415);
+}
+
+#box1 button:active {
+  background-color: #4f4f4f64;
+}
+
+/* Box section 2*/
+#box2{
+  height: 420px;
+  width: 1100px;
+  border:1px solid rgba(93, 93, 93, 0.49);
+  background-color:rgba(0, 0, 0, 0.546);
+  position: relative;
+  top:350px;
+  left:210px;
+  border-radius: 80px;
+}
+
+ #box2{
+  height: 420px;
+  width: 1100px;
+  border:1px solid rgba(93, 93, 93, 0.49);
+  background-color:rgba(0, 0, 0, 0.546);
+  position: relative;
+  top:300px;
+  left:210px;
+  border-radius: 80px;
+}
+
+#box2 img{
+  height: 360px;
+  width: 430px;
+  border-radius: 90px;
+  border: 1px solid rgba(152, 152, 152, 0.47);
+  position:absolute;
+  right:30px;
+  top:30px;
+  transition-duration: 500ms;
+  transition-delay: 150ms;
+  transition-property: all;
+}
+
+#box2 img:hover {
+  transform: scale(1.06); /* thoda zoom karega (5% increase) */
+}
+
+#box2 h2{
+  color: white;
+  text-transform: capitalize;
+  font-size: 33px;
+  font-family: Arial, Helvetica, sans-serif;
+  position: absolute;
+  right:525px;
+  top:80px;
+}
+
+#box2 p{
+  color:rgba(220, 218, 218, 0.84);
+  text-transform: capitalize;
+  font-family: Arial, Helvetica, sans-serif;
+  position: absolute;
+  right:530px;
+  top:125px;
+}
+
+#box2 ul{
+  color:rgba(201, 200, 195, 0.428);
+  position:absolute;
+  right:750px;
+  top:170px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: capitalize;
+}
+
+#box2 li:hover{
+ background-color: rgba(168, 168, 168, 0.431);
+ border-radius: 90px;
+}
+
+#box2 li{
+  margin-bottom: 5px;
+}
+
+#box2 button{
+  background-color: #030303c4;
+  color: white;
+  padding: 12px 28px;
+  font-size: 16px;
+  border-radius: 90px;
+  border: 1px solid rgba(117, 117, 117, 0.438);
+  position: relative;
+  left:145px;
+  top:340px;
+  cursor: pointer;
+}
+
+#box2 button:hover {
+  border: 1px solid rgba(255, 255, 255, 0.415);
+}
+
+#box2 button:active {
+  background-color: #4f4f4f64;
+}
+
+/* Box section 3*/
+
+#box3{
+  height: 420px;
+  width: 1100px;
+  border:1px solid rgba(93, 93, 93, 0.49);
+  background-color:rgba(0, 0, 0, 0.546);
+  position: relative;
+  top:338px;
+  left:210px;
+  border-radius: 80px;
+}
+
+#box3 img{
+  height: 360px;
+  width: 430px;
+  border-radius: 90px;
+  border: 1px solid rgba(152, 152, 152, 0.47);
+  position:absolute;
+  left:30px;
+  top:30px;
+  transition-duration: 500ms;
+  transition-delay: 150ms;
+  transition-property: all;
+}
+
+#box3 img:hover {
+  transform: scale(1.06); /* thoda zoom karega (5% increase) */
+}
+
+
+#box3 h2{
+  color: white;
+  text-transform: capitalize;
+  font-size: 33px;
+  font-family: Arial, Helvetica, sans-serif;
+  position: absolute;
+  left:530px;
+  top:80px;
+}
+
+#box3 p{
+  color:rgba(220, 218, 218, 0.84);
+  text-transform: capitalize;
+  font-family: Arial, Helvetica, sans-serif;
+  position: absolute;
+  left:530px;
+  top:125px;
+}
+#box3 ul{
+  color:rgba(201, 200, 195, 0.428);
+  position:absolute;
+  left:550px;
+  top:180px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: capitalize;
+}
+
+#box3 li:hover{
+ background-color: rgba(168, 168, 168, 0.431);
+ border-radius: 90px;
+}
+
+#box3 li{
+  margin-bottom: 5px;
+}
+
+#box3 button{
+  background-color: #030303c4;
+  color: white;
+  padding: 12px 28px;
+  font-size: 16px;
+  border-radius: 90px;
+  border: 1px solid rgba(117, 117, 117, 0.438);
+  position: relative;
+  left:540px;
+  top:340px;
+  cursor: pointer;
+}
+
+#box3 button:hover {
+  border: 1px solid rgba(255, 255, 255, 0.415);
+}
+
+#box3 button:active {
+  background-color: #4f4f4f64;
+}
+
+/* About Section */ 
+.about{
+  position: relative;
+  top:200px;
+  text-transform: capitalize;
+  color:rgb(221, 216, 216);
+  text-decoration: none;
+}
+.p{
+  color:rgba(177, 172, 172, 0.955);
+  top:200px;
+  height: 8vh;
+  width: 30vw;
+  position: absolute;
+  top:314vh;
+  left:35vw;
+  font-size:20px;
+}
+
+#mainabout p{
+color:rgba(222, 222, 227, 0.829);
+display: flex;
+justify-content: center;
+align-items: center;
+position: relative;
+top:500px;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 20px;
+text-align: center;
+margin-left: 25px;
+margin-right: 25px;
+}
+
+/* h1 last section */
+.hh1{
+  color:rgb(0, 0, 0);
+  text-shadow: 0 0 5px rgba(200, 199, 199, 0.3),
+               0 0 10px rgba(128, 126, 126, 0.2),
+               0 0 15px rgba(75, 73, 73, 0.1);
+ position: relative;
+ top:550px;
+ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ font-size: 50px;
+ margin-left: 40px;
+ margin-right: 40px;
+ text-transform: capitalize;
+
+}
+
+/* Horizontal Glowing Line */
+.glowing{
+  position: absolute;
+  top:3050px;
+  height: 4px;
+  width: 100%;
+  background: linear-gradient(90deg, #00000000, #8a72725e, #00000000);
+  background-size: 200% auto;
+  animation: scroll-glow 3s linear infinite;
+  margin: 30px 0;
+  box-shadow: 0 0 10px #99626263;
+  border-radius: 10px;
+}
+
+@keyframes scroll-glow {
+  0% {
+    background-position: 0% center;
+  }
+  100% {
+    background-position: 200% center;
+  }
+}
+
+
+/* corner Abhinex Logo */
+#logoo img{
+    height: 65px;
+    width: 65px;
+    border-radius: 50px;
+    margin-top:20px;
+    margin-left: 10px;
+    position: relative;
+    top:625px;
+}
+
+#logoo h3{
+    color:white;
+    margin-left: 55px;
+    margin-top:50px;
+    display: inline-block;
+    position: relative;
+    top:600px;
+    right:55px;
+    bottom:25px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 
+    0 0 5px rgba(0, 0, 0, 0.6),
+    0 0 10px rgba(0, 0, 0, 0.4),
+    2px 2px 4px rgba(0, 0, 0, 0.6);
+}
+
+#support p{
+  color:grey;
+  font-family: Arial, Helvetica, sans-serif;
+  position: relative;
+  top:616px;
+  left:30px;
+}
+
+#support h3{
+  color:rgb(240, 238, 238);
+  text-transform: capitalize;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 1.3em;
+  position: relative;
+  top:540px;
+  left:1350px;
+}
+ 
+#support h2{
+  color:rgba(187, 185, 185, 0.796);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  position: relative;
+  top:550px;
+  left:1340px;
+  font-size: 16px;
+  transition-duration: 600ms;
+  transition-property: all;
+  transition-delay: 100ms;
+}
+
+#support h2:hover{
+  color:white;
+}
+
+#support h4{
+  color:rgba(187, 185, 185, 0.796);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  position: relative;
+  top:560px;
+  left:1340px;
+  font-size: 16px;
+  transition-duration: 600ms;
+  transition-property: all;
+  transition-delay: 100ms;
+}
+
+#support h4:hover{
+color:white;
+}
+
+.blank{
+  color:red;
+  margin-top:400px;
+}
